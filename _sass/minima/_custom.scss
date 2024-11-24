@@ -143,8 +143,9 @@ img, video {
 
 /* Responsive Styling for Mobile Screens */
 @media screen and (max-width: 768px) {
-  .site-header {
-    padding: 10px 0; /* Adjust header padding for smaller screens */
+  .site-nav {
+    padding-left: 10 px;
+    padding-right: 10 px;
   }
 }
 
