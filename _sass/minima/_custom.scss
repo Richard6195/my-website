@@ -54,7 +54,7 @@ body {
 .site-footer {
   text-align: center;
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #ffffff;
   background: linear-gradient(to right, #FF8C00, #FF4500); /* Reverse gradient for footer */
   border-top: 2px solid #FFD700;
@@ -65,11 +65,6 @@ body {
   font-size: 1.1rem; /* Slightly larger font size for links */
   font-weight: bold;
   text-decoration: none;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-  color: #FF4500; /* Optional: Highlight link color on hover */
 }
 
 /* Main Content Area Styling */
