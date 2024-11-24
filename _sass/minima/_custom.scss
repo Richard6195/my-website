@@ -47,7 +47,7 @@ body {
 
 .site-nav .page-link:hover {
   text-decoration: underline;
-  color: #ffffff; /* White hover effect */
+  color: #FF4500; /* Optional: Highlight link color on hover */
 }
 
 /* Footer Styling */
@@ -67,6 +67,10 @@ body {
   text-decoration: none;
 }
 
+.site-footer a:hover {
+  text-decoration: underline;
+  color: #FF4500; /* Optional: Highlight link color on hover */
+}
 /* Main Content Area Styling */
 .page-content {
   padding: 20px 0;
@@ -88,7 +92,7 @@ h1, h2, h3 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   line-height: 1.8;
 }
