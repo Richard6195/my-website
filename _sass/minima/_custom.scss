@@ -12,42 +12,44 @@ body {
 /* Header Styling */
 .site-header {
   text-align: center;
-  padding: 20px 0; /* Add padding to prevent overlap */
-  background: linear-gradient(to right, #FF4500, #FF8C00);
+  margin: 20px 0;
+  padding: 20px 0;
+  background: linear-gradient(to right, #FF4500, #FF8C00); /* Deep orange sunset */
   color: #fff;
-  border-bottom: 2px solid #FFD700;
+  border-bottom: 2px solid #FFD700; /* Highlight border */
 }
 
 .site-header .site-title {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 10px; /* Add space below title */
+  margin-bottom: 10px;
 }
 
 .site-header .site-description {
   font-size: 1.1rem;
   font-style: italic;
-  margin-top: 20px; /* Add space above description */
+  margin-top: 10px;
 }
 
 /* Navigation Styling */
 .site-nav {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  padding: 10px 0; /* Add vertical padding to separate nav bar */
-  background-color: transparent; /* Remove any white background */
+  gap: 5px;
+  flex-wrap: wrap; /* Allows links to move to the next line if needed */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .site-nav .page-link {
   text-decoration: none;
-  color: #ffe100;
+  color: #ffe100; /* Gold links */
   font-weight: bold;
-  padding: 5px 10px;
-  border-radius: 5px; /* Optional: Rounded corners */
+  padding: 5px 10px; /* Add padding for better touch interaction */
+  border-radius: 3px; /* Optional: Rounded corners */
+  background-color: rgba(0, 0, 0, 0.1); /* Optional link background */
 }
-
 
 .site-nav .page-link:hover {
   text-decoration: underline;
@@ -130,16 +132,16 @@ img, video {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Mobile-Specific Adjustments */
 @media screen and (max-width: 768px) {
   .image-row img, .video-row video {
     max-width: 100%;
   }
+}
+
+/* Responsive Styling for Mobile Screens */
+@media screen and (max-width: 768px) {
   .site-header {
-    padding: 10px 10px; /* Add extra padding for mobile screens */
-  }
-  .site-nav .page-link {
-    padding: 30px; /* Increase padding for touch targets */
-    font-size: 1rem; /* Adjust font size for readability */
+    padding: 10px 0; /* Adjust header padding for smaller screens */
   }
 }
+
