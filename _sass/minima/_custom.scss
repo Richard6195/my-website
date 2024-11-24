@@ -125,14 +125,18 @@ img, video {
   }
 
   .site-nav {
-    flex-direction: column; /* Stack links vertically on small screens */
-    gap: 10px;
+    flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
   }
 
   .site-nav .page-link {
     color: #FFD700; /* Gold links */
+    font-weight: bold;
     font-size: 1rem; /* Adjust font size for mobile */
-    padding: 10px 15px; /* Add more spacing for touch devices */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+    padding: 5px 10px; /* Add more spacing for touch devices */
+    border-radius: 5px; /* Optional: Rounded corners */
   }
 }
