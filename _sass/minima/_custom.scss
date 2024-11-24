@@ -49,7 +49,6 @@ body {
   font-weight: bold;
   padding: 5px 10px; /* Add padding for better touch interaction */
   border-radius: 3px; /* Optional: Rounded corners */
-  background: none; /* Removes background color */
 }
 
 .site-nav .page-link:hover {
@@ -137,5 +136,19 @@ img, video {
 @media screen and (max-width: 768px) {
   .image-row img, .video-row video {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site-nav {
+    justify-content: space-evenly; /* Spread items evenly */
+  }
+
+  .site-nav .page-link {
+    display: inline-block; /* Ensure links don't overlap */
+    background-color: transparent; /* Remove any default background */
+    padding: 5px 10px; /* Adjust padding if needed */
+    box-shadow: none; /* Remove any shadow */
+    border: none; /* Ensure no border is applied */
   }
 }
