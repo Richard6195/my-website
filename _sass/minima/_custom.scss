@@ -39,7 +39,6 @@ body {
   gap: 5px;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
   margin-top: 10px;
-  background-color: transparent; /* Ensure links have no background */
 }
 
 .site-nav .page-link {
@@ -150,7 +149,6 @@ img, video {
     gap: 5px; /* Reduce spacing for smaller screens */
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: transparent; /* Ensure links have no background */
   }
 
   .site-nav .page-link {
