@@ -29,7 +29,6 @@ body {
   font-size: 1.1rem;
   font-style: italic;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 /* Navigation Styling */
@@ -38,7 +37,8 @@ body {
   justify-content: center;
   gap: 5px;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
-  margin-top: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   color: #ffffff;
 }
 
