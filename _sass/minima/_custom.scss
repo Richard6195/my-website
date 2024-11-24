@@ -39,20 +39,17 @@ body {
   gap: 10px;
   margin-top: 5px;
   padding: 5px 0;
-  z-index: 10; /* Ensure navigation stays on top */
+  z-index: 5; /* Ensure navigation stays on top */
   position: relative; /* Prevent overlapping issues */
-  background-color: transparent; /* Ensure no background color is applied */
 }
 
 .site-nav .page-link {
-  all: unset; /* Remove all default styles */
-  display: inline-block;
   text-decoration: none;
   color: #FFD700; /* Gold links */
   font-weight: bold;
-  padding: 8px 12px; /* Add padding for better touch interaction */
+  padding: 5px 10px; /* Add padding for better touch interaction */
   border-radius: 3px; /* Optional: Rounded corners */
-  background-color: transparent; /* Ensure no background color is applied */
+  background: none; /* Removes background color */
 }
 
 .site-nav .page-link:hover {
@@ -141,5 +138,14 @@ img, video {
   .image-row img, .video-row video {
     max-width: 100%;
   }
+  .site-nav {
+    justify-content: space-evenly; /* Spread items evenly */
+  }
+  .site-nav .page-link {
+    display: inline-block; /* Ensure links don't overlap */
+    background: none; /* Remove any default background */
+    padding: 5px 10px; /* Adjust padding if needed */
+    box-shadow: none; /* Remove any shadow */
+    border: none; /* Ensure no border is applied */
+  }
 }
-
