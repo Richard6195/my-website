@@ -68,6 +68,22 @@ body {
   padding: 20px 0;
 }
 
+.site-footer a {
+  color: #ffc800;
+  font-size: 1rem; /* Slightly larger font size for links */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+  color: #FF4500; /* Optional: Highlight link color on hover */
+}
+
+.site-footer .contact-list li {
+  margin: 5px 0;
+}
+
 /* Main Content Area Styling */
 .page-content {
   padding: 20px 0;
