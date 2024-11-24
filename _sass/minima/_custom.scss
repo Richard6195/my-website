@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   color: #ffffff; /* Set white text for better contrast */
   margin: 0;
-  padding-top: 100px;
+  padding: 0;
   background: linear-gradient(to bottom, #FF4500, #FF8C00, #FFD700); /* Sunset gradient */
   background-attachment: fixed; /* Ensures smooth scrolling */
 }
@@ -37,7 +37,7 @@ body {
   gap: 5px;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
   color: #ffffff;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 
