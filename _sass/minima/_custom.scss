@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   color: #ffffff; /* Set white text for better contrast */
   margin: 0;
-  padding: 0;
+  padding-top: 15px;
   background: linear-gradient(to bottom, #FF4500, #FF8C00, #FFD700); /* Sunset gradient */
   background-attachment: fixed; /* Ensures smooth scrolling */
 }
@@ -144,36 +144,3 @@ img, video {
     padding: 10px 0; /* Adjust header padding for smaller screens */
   }
 }
-
-@media screen and (max-width: 768px) {
-
-  .site-header .site-description {
-    font-size: 1rem;
-    font-style: italic;
-    margin-top: 8px;
-  }
-
-  /* Navigation Styling */
- .site-nav {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
-  margin-top: 20px;
-  margin-bottom: 5px;
-  color: #ffffff;
- }
-
- .site-nav .page-link {
-  text-decoration: none;
-  color: #ffe100; /* Gold links */
-  font-weight: bold;
-  padding: 4px 8px; /* Add padding for better clickability */
-  border-radius: 2px; /* Optional: Rounded corners */
- }
-
- .site-nav .page-link:hover {
- text-decoration: underline;
- color: #FF4500;
- }
-} 
