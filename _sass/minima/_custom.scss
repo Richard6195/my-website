@@ -13,7 +13,7 @@ body {
 .site-header {
   text-align: center;
   margin: 20px 0;
-  padding-top: 10px;
+  padding-top: 15px;
   background: linear-gradient(to right, #FF4500, #FF8C00); /* Deep orange sunset */
   color: #fff;
   border-bottom: 2px solid #FFD700; /* Highlight border */
@@ -38,9 +38,8 @@ body {
   gap: 5px;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
   color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: sticky; top:0;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .site-nav .page-link {
