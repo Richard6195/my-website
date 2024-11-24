@@ -36,7 +36,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
-  gap: 10px;
+  gap: 5px;
   margin-top: 5px;
   padding: 5px 0;
   z-index: 5; /* Ensure navigation stays on top */
@@ -137,15 +137,5 @@ img, video {
 @media screen and (max-width: 768px) {
   .image-row img, .video-row video {
     max-width: 100%;
-  }
-  .site-nav {
-    justify-content: space-evenly; /* Spread items evenly */
-  }
-  .site-nav .page-link {
-    display: inline-block; /* Ensure links don't overlap */
-    background: none; /* Remove any default background */
-    padding: 5px 10px; /* Adjust padding if needed */
-    box-shadow: none; /* Remove any shadow */
-    border: none; /* Ensure no border is applied */
   }
 }
