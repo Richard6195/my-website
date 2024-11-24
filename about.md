@@ -45,7 +45,7 @@ Dissertation: "A new direction for differentiating animal activity based on meas
 
 When I’m not in the field chasing data or debugging code, I enjoy sharing my knowledge through teaching, mentoring, and collaborating on multidisciplinary projects. I am committed to fostering inclusivity in research and enhancing local capacity in the regions where I work. 
 
-Beond this, I like to spend my time indulging in some more... grounded pursuits. As an unfortunate, yet loyal Arsenal FC supporter, I have embraced the highs and lows of the beautiful game (though with a surname like Gunner, what other team could I possibly support?). On the flip side, I’ve also taken to golf—a sport where I can combine my love for precision with the occasional frustration of losing a ball in the rough!
+Beyond this, I like to spend my time indulging in some more... grounded pursuits. As an unfortunate, yet loyal Arsenal FC supporter, I have embraced the highs and lows of the beautiful game (though with a surname like Gunner, what other team could I possibly support?). On the flip side, I’ve also taken to golf—a sport where I can combine my love for precision with the occasional frustration of losing a ball in the rough!
 
 <div class="image-row">
   <img src="assets/images/arsenal.jpg" alt="" />
