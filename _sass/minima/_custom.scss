@@ -92,7 +92,7 @@ h1, h2, h3 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 20px;
   line-height: 1.8;
 }
@@ -125,4 +125,22 @@ img, video {
   .image-row img, .video-row video {
     max-width: 100%;
   }
+}
+
+.center-text {
+  text-align: center; /* Center the text horizontally */
+  margin-top: 20px; /* Optional: Add space above the text */
+  font-size: 1.5rem; /* Optional: Adjust font size */
+  font-weight: bold; /* Optional: Make the text bold */
+}
+
+.footer-heading {
+  font-size: 1.8rem; /* Adjust the size for the title */
+  font-weight: bold; /* Ensure the title remains bold */
+}
+
+.p-name {
+  font-size: 2rem; /* Make the author's name slightly larger */
+  font-weight: normal; /* Optional: Keep the font weight normal for contrast */
+  margin-top: 10px; /* Optional: Add space above the name */
 }

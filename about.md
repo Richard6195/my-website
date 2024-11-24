@@ -28,6 +28,7 @@ Dissertation: "A new direction for differentiating animal activity based on meas
 - Comparative Foraging Strategies of Neotropical Frugivore Guilds (Panama): Designed and implemented protocols to track high-resolution 3D movements of 10 species using GPS-IMU technologies.
 
 ![Alt Text](assets/images/data.png){: width="50%"}
+
 - Dead-Reckoning Animal Movement in R: Developed and refined analytical frameworks for reconstructing movement paths using animal-borne sensors.
   
 - African Lions in Kgalagadi, South Africa: Conducted large-scale tagging efforts, collecting high-resolution data to study movement ecology.
