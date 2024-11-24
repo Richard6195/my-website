@@ -49,11 +49,12 @@ body {
   font-weight: bold;
   padding: 5px 10px; /* Add padding for better touch interaction */
   border-radius: 3px; /* Optional: Rounded corners */
+  background-color: rgba(0, 0, 0, 0.1); /* Optional link background */
 }
 
 .site-nav .page-link:hover {
   text-decoration: underline;
-  color: #FF8C00; /* Highlight color on hover */
+  color:  #FF4500; /* Highlight color on hover */
 }
 
 /* Footer Styling */
@@ -138,3 +139,22 @@ img, video {
   }
 }
 
+/* Responsive Styling for Mobile Screens */
+@media screen and (max-width: 768px) {
+  .site-header {
+    padding: 10px 0; /* Adjust header padding for smaller screens */
+  }
+
+  .site-nav {
+    flex-direction: column; /* Stack navigation links vertically */
+    align-items: center; /* Center align navigation links */
+    gap: 5px; /* Reduce spacing for smaller screens */
+    margin-top: 5px;
+    color: #ffffff;
+  }
+
+  .site-nav .page-link {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    padding: 6px 8px; /* Adjust padding for touch-friendly size */
+  }
+}
