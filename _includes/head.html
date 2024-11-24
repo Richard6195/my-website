@@ -5,13 +5,18 @@
 
   <!-- SEO Meta Tags -->
   <meta name="description" content="Dr. Richard Gunner's official site for wildlife tracking, ecological research, and data analysis.">
-  <meta name="keywords" content="wildlife tracking, ecology, research, publications, animal movement, Richard Gunner, dead reckoning">
+  <meta name="keywords" content="wildlife tracking, ecology, research, publications, animal movement, Richard Gunner">
 
+  <!-- Jekyll SEO Tag -->
   {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
+  <!-- Link to Stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+  <!-- RSS Feeds -->
   {%- feed_meta -%}
 
-  <!-- Google tag (gtag.js) -->
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-878CQYNYYF"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -21,6 +26,7 @@
     gtag('config', 'G-878CQYNYYF');
   </script>
 
+  <!-- Additional Tags for Jekyll Pages -->
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
