@@ -35,23 +35,26 @@ body {
 .site-nav {
   display: flex;
   justify-content: center;
-  gap: 5px;
-  flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
+  flex-wrap: wrap; /* Allows links to move to the next line if needed */
+  gap: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 10px 0;
+  z-index: 10; /* Ensure navigation stays on top */
+  position: relative; /* Prevent overlapping issues */
 }
 
 .site-nav .page-link {
   text-decoration: none;
   color: #FFD700; /* Gold links */
   font-weight: bold;
-  padding: 5px 10px; /* Add padding for better clickability */
+  padding: 8px 12px; /* Add padding for better touch interaction */
   border-radius: 3px; /* Optional: Rounded corners */
+  background: none; /* Removes background color */
 }
 
 .site-nav .page-link:hover {
   text-decoration: underline;
-  color: $brand-color;
+  color: #FF8C00; /* Highlight color on hover */
 }
 
 /* Footer Styling */
@@ -122,27 +125,21 @@ img, video {
 }
 
 
+/* Responsive Styling for Mobile Screens */
 @media screen and (max-width: 768px) {
-  /* Navigation Styling */
- .site-nav {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
-  margin-top: 10px;
-  margin-bottom: 10px;
- }
+  .site-header {
+    padding: 10px 0; /* Adjust header padding for smaller screens */
+  }
 
- .site-nav .page-link {
-  text-decoration: none;
-  color: #FFD700; /* Gold links */
-  font-weight: bold;
-  padding: 5px 10px; /* Add padding for better clickability */
-  border-radius: 3px; /* Optional: Rounded corners */
- }
+  .site-nav {
+    flex-direction: column; /* Stack navigation links vertically */
+    align-items: center; /* Center align navigation links */
+    gap: 5px; /* Reduce spacing for smaller screens */
+    margin-top: 5px;
+  }
 
- .site-nav .page-link:hover {
- text-decoration: underline;
- color: $brand-color;
- }
+  .site-nav .page-link {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    padding: 6px 8px; /* Adjust padding for touch-friendly size */
+  }
 }
