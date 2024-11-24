@@ -26,9 +26,10 @@ body {
 }
 
 .site-header .site-description {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-style: italic;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Navigation Styling */
@@ -38,7 +39,6 @@ body {
   gap: 5px;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
   margin-top: 10px;
-  z-index: -10; /* Ensure navigation stays on top */
   color: #ffffff;
 }
 
@@ -60,7 +60,7 @@ body {
 .site-footer {
   text-align: center;
   margin-top: 20px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ffffff;
   background: linear-gradient(to right, #FF8C00, #FF4500); /* Reverse gradient for footer */
   border-top: 2px solid #FFD700;
@@ -69,7 +69,7 @@ body {
 
 .site-footer a {
   color: #ffc800;
-  font-size: 1rem; /* Slightly larger font size for links */
+  font-size: 1.1rem; /* Slightly larger font size for links */
   font-weight: bold;
 }
 
@@ -98,12 +98,12 @@ body {
   padding: 0 20px;
 }
 
-h1, h2, h3 {
-  color: #FFD700; /* Golden headings */
+h1, h2, h3, h4 {
+  color: #ffe100; /* Golden headings */
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 20px;
   line-height: 1.8;
 }
