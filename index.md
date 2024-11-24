@@ -15,8 +15,8 @@ Feel free to explore:
 - [Publications](publications.html)
 
 ![Alt Text](assets/images/profilepic.jpg) 
-![Alt Text](assets/images/selfieargentina.jpg){: width="60%"}
-![Alt Text](assets/images/lionselfie.jpg){: width="60%"}
-![Alt Text](assets/images/collarselfie.jpg){: width="60%"}
+![Alt Text](assets/images/lionselfie.jpg)
+![Alt Text](assets/images/selfieargentina.jpg){: width="50%"}
+![Alt Text](assets/images/collarselfie.jpg){: width="50%"}
 
 ### Thank you for visiting! 
