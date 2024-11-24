@@ -9,7 +9,7 @@ From a young age, I was captivated by the natural world, inspired by the infecti
 
 ![Alt Text](assets/images/cormorantsunrise.jpg){: width="90%"}
 
-Currently, I am a postdoctoral researcher at the Max Planck Institute of Animal Behavior in Germany, working in the Department for the Ecology of Animal Societies under Prof. Dr. Meg Crofoot. My research focuses on the cutting-edge analysis of animal movement using advanced biotelemetry tools, combining GPS, IMU, and sensor technologies to uncover the behavioral strategies of terrestrial, arboreal, and marine species.
+Currently, I am a postdoctoral researcher at the Max Planck Institute of Animal Behavior in Germany, working in the Department for the Ecology of Animal Societies under Prof. Dr. Meg Crofoot. My research focuses on the cutting-edge analysis of animal movement using advanced biotelemetry tools, combining GPS, IMU, and sensor technologies to uncover the behavioral strategies of terrestrial, arboreal, aerial, and marine species.
 
 Throughout my career, I’ve led and contributed to several interdisciplinary research projects, from the dense jungles of Panama tracking neotropical frugivores to the arid landscapes of South Africa tagging African lions. These experiences have not only honed my technical skills but also deepened my commitment to ethical and impactful science.
 
