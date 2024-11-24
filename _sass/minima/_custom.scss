@@ -39,7 +39,7 @@ body {
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
   margin-top: 10px;
   margin-bottom: 10px;
-  position: relative; /* Prevent overlapping issues */
+  z-index: 10; /* Ensure navigation stays on top */
   color: #ffffff;
 }
 
@@ -53,7 +53,7 @@ body {
 
 .site-nav .page-link:hover {
   text-decoration: underline;
-  color: $brand-color;
+  color: #FF8C00; /* Highlight color on hover */
 }
 
 /* Footer Styling */
@@ -71,6 +71,15 @@ body {
   color: #ffc800;
   font-size: 1rem; /* Slightly larger font size for links */
   font-weight: bold;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+  color: #FF4500; /* Optional: Highlight link color on hover */
+}
+
+.site-footer .contact-list li {
+  margin: 5px 0;
 }
 
 /* Main Content Area Styling */
