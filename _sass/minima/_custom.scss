@@ -136,14 +136,10 @@ img, video {
     max-width: 100%;
   }
   .site-header {
-    padding: 30px 10px; /* Add extra padding for mobile screens */
-  }
-  .site-nav {
-    flex-direction: column; /* Stack links vertically */
-    align-items: center; /* Center the links */
+    padding: 10px 10px; /* Add extra padding for mobile screens */
   }
   .site-nav .page-link {
-    padding: 10px; /* Increase padding for touch targets */
+    padding: 50px; /* Increase padding for touch targets */
     font-size: 1rem; /* Adjust font size for readability */
   }
 }
