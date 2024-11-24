@@ -12,8 +12,8 @@ body {
 /* Header Styling */
 .site-header {
   text-align: center;
-  margin: 20px 0;
-  padding: 20px 0;
+  margin: 10px 0;
+  padding: 10px 0;
   background: linear-gradient(to right, #FF4500, #FF8C00); /* Deep orange sunset */
   color: #fff;
   border-bottom: 2px solid #FFD700; /* Highlight border */
@@ -37,8 +37,8 @@ body {
   justify-content: center;
   gap: 5px;
   flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .site-nav .page-link {
@@ -129,8 +129,8 @@ img, video {
   justify-content: center;
   gap: 5px;
   flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
  }
 
  .site-nav .page-link {
