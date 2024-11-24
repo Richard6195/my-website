@@ -12,8 +12,7 @@ body {
 /* Header Styling */
 .site-header {
   text-align: center;
-  padding-top: 20px; /* Add space above the header */
-  padding-bottom: 20px; /* Add space below the header */
+  padding: 20px 0; /* Add padding to prevent overlap */
   background: linear-gradient(to right, #FF4500, #FF8C00);
   color: #fff;
   border-bottom: 2px solid #FFD700;
@@ -28,18 +27,17 @@ body {
 .site-header .site-description {
   font-size: 1.1rem;
   font-style: italic;
-  margin-top: 10px; /* Add space above description */
+  margin-top: 20px; /* Add space above description */
 }
 
 /* Navigation Styling */
 .site-nav {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  padding-top: 20px; /* Add space above the navbar */
-  padding-bottom: 10px; /* Add space below the navbar */
+  padding: 10px 0; /* Add vertical padding to separate nav bar */
+  background-color: transparent; /* Remove any white background */
 }
 
 .site-nav .page-link {
@@ -47,8 +45,7 @@ body {
   color: #ffe100;
   font-weight: bold;
   padding: 5px 10px;
-  border-radius: 3px;
-  background-color: transparent; /* Ensure no background */
+  border-radius: 5px; /* Optional: Rounded corners */
 }
 
 
@@ -133,29 +130,20 @@ img, video {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Mobile-Specific Adjustments */
 @media screen and (max-width: 768px) {
   .image-row img, .video-row video {
     max-width: 100%;
   }
-}
-
-/* Mobile-Specific Adjustments */
-@media screen and (max-width: 768px) {
   .site-header {
-    padding-top: 30px; /* Increase padding for mobile */
-    padding-bottom: 30px;
+    padding: 30px 10px; /* Add extra padding for mobile screens */
   }
-
   .site-nav {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center the links */
   }
-
-  .site-title {
-    margin-bottom: 15px; /* Add extra spacing for clarity */
-  }
-
-  .site-description {
-    margin-top: 5px;
+  .site-nav .page-link {
+    padding: 10px; /* Increase padding for touch targets */
+    font-size: 1rem; /* Adjust font size for readability */
   }
 }
