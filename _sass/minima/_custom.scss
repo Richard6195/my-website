@@ -12,43 +12,45 @@ body {
 /* Header Styling */
 .site-header {
   text-align: center;
-  margin: 20px 0;
-  padding-top: 10px;
-  background: linear-gradient(to right, #FF4500, #FF8C00); /* Deep orange sunset */
+  padding-top: 20px; /* Add space above the header */
+  padding-bottom: 20px; /* Add space below the header */
+  background: linear-gradient(to right, #FF4500, #FF8C00);
   color: #fff;
-  border-bottom: 2px solid #FFD700; /* Highlight border */
+  border-bottom: 2px solid #FFD700;
 }
 
 .site-header .site-title {
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 10px; /* Add space below title */
 }
 
 .site-header .site-description {
   font-size: 1.1rem;
   font-style: italic;
-  padding-top: 10px;
+  margin-top: 10px; /* Add space above description */
 }
 
 /* Navigation Styling */
 .site-nav {
   display: flex;
   justify-content: center;
-  gap: 5px;
-  flex-wrap: wrap; /* Allows links to move to the next line if needed */
-  color: #ffffff;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 20px; /* Add space above the navbar */
+  padding-bottom: 10px; /* Add space below the navbar */
 }
 
 .site-nav .page-link {
   text-decoration: none;
-  color: #ffe100; /* Gold links */
+  color: #ffe100;
   font-weight: bold;
-  padding: 5px 10px; /* Add padding for better touch interaction */
-  border-radius: 3px; /* Optional: Rounded corners */
-  background-color: rgba(0, 0, 0, 0.1); /* Optional link background */
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: transparent; /* Ensure no background */
 }
+
 
 .site-nav .page-link:hover {
   text-decoration: underline;
@@ -137,4 +139,23 @@ img, video {
   }
 }
 
+/* Mobile-Specific Adjustments */
+@media screen and (max-width: 768px) {
+  .site-header {
+    padding-top: 30px; /* Increase padding for mobile */
+    padding-bottom: 30px;
+  }
 
+  .site-nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .site-title {
+    margin-bottom: 15px; /* Add extra spacing for clarity */
+  }
+
+  .site-description {
+    margin-top: 5px;
+  }
+}
