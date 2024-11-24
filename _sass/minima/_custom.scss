@@ -44,7 +44,7 @@ body {
 
 .site-nav .page-link {
   text-decoration: none;
-  color: #ffc800; /* Gold links */
+  color: #ffe100; /* Gold links */
   font-weight: bold;
   padding: 5px 10px; /* Add padding for better touch interaction */
   border-radius: 3px; /* Optional: Rounded corners */
@@ -68,7 +68,7 @@ body {
 }
 
 .site-footer a {
-  color: #ffc800;
+  color: #ffe100;
   font-size: 1.1rem; /* Slightly larger font size for links */
   font-weight: bold;
 }
@@ -114,7 +114,7 @@ img, video {
   margin: 20px auto;
   max-width: 90%;
   height: auto;
-  border: 2px solid #FFD700;
+  border: 2px solid #ffe100;
   border-radius: 10px;
 }
 
@@ -144,3 +144,36 @@ img, video {
     padding: 10px 0; /* Adjust header padding for smaller screens */
   }
 }
+
+@media screen and (max-width: 768px) {
+
+  .site-header .site-description {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 8px;
+  }
+
+  /* Navigation Styling */
+ .site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #ffffff;
+ }
+
+ .site-nav .page-link {
+  text-decoration: none;
+  color: #ffe100; /* Gold links */
+  font-weight: bold;
+  padding: 4px 8px; /* Add padding for better clickability */
+  border-radius: 2px; /* Optional: Rounded corners */
+ }
+
+ .site-nav .page-link:hover {
+ text-decoration: underline;
+ color: #FF4500;
+ }
+} 
