@@ -16,6 +16,7 @@ Feel free to explore:
 
 ![Alt Text](assets/images/profilepic.jpg) 
 ![Alt Text](assets/images/selfieargentina.jpg){: width="60%"}
+![Alt Text](assets/images/lionselfie.jpg){: width="60%"}
 ![Alt Text](assets/images/collarselfie.jpg){: width="60%"}
 
 ### Thank you for visiting! 
