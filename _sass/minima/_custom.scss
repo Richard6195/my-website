@@ -37,19 +37,22 @@ body {
   justify-content: center;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
   gap: 10px;
-  margin-top: 10px;
-  padding: 10px 0;
+  margin-top: 5px;
+  padding: 5px 0;
   z-index: 10; /* Ensure navigation stays on top */
   position: relative; /* Prevent overlapping issues */
+  background-color: transparent; /* Ensure no background color is applied */
 }
 
 .site-nav .page-link {
+  all: unset; /* Remove all default styles */
+  display: inline-block;
   text-decoration: none;
   color: #FFD700; /* Gold links */
   font-weight: bold;
   padding: 8px 12px; /* Add padding for better touch interaction */
   border-radius: 3px; /* Optional: Rounded corners */
-  background: none; /* Removes background color */
+  background-color: transparent; /* Ensure no background color is applied */
 }
 
 .site-nav .page-link:hover {
