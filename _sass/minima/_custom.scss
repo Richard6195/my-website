@@ -45,7 +45,7 @@ body {
 
 .site-nav .page-link {
   text-decoration: none;
-  color: #FFD700; /* Gold links */
+  color: #ffc800; /* Gold links */
   font-weight: bold;
   padding: 5px 10px; /* Add padding for better touch interaction */
   border-radius: 3px; /* Optional: Rounded corners */
@@ -146,8 +146,8 @@ img, video {
 
   .site-nav .page-link {
     display: inline-block; /* Ensure links don't overlap */
-    background-color: transparent; /* Remove any default background */
-    padding: 5px 10px; /* Adjust padding if needed */
+    background: linear-gradient(to right, #FF4500, #FF8C00); /* Deep orange sunset */
+    padding: 4px 8px; /* Adjust padding if needed */
     box-shadow: none; /* Remove any shadow */
     border: none; /* Ensure no border is applied */
   }
