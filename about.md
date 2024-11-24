@@ -18,32 +18,33 @@ Throughout my career, I’ve led and contributed to several interdisciplinary re
 # Academic Journey
 
 - Postdoctoral Researcher (2021–present): Max Planck Institute of Animal Behavior, Germany.
-- PhD in Biosciences (2018–2021): Swansea University, Wales, UK.
-Dissertation: "A new direction for differentiating animal activity based on measuring angular velocity about the yaw axis."
+
+- PhD in Biosciences (2018–2021): Swansea University, Wales, UK.  
+  Dissertation: "A new direction for differentiating animal activity based on measuring angular velocity about the yaw axis."
+
 - Master of Research (MRes) (2016–2018): Swansea University.
+
 - Bachelor’s in Zoology (2013–2016): Swansea University, First Class Honours.
 
 ![Alt Text](assets/images/graduation.jpg){: width="70%"}
 
-
 # Research Highlights
 
-- Comparative Foraging Strategies of Neotropical Frugivore Guilds (Panama): Designed and implemented protocols to track high-resolution 3D movements of 10 species using GPS-IMU technologies.
-
+- Comparative Foraging Strategies of Neotropical Frugivore Guilds (Panama):  
+  Designed and implemented protocols to track high-resolution 3D movements of 10 species using GPS-IMU technologies.
 
 ![Alt Text](assets/images/data.png){: width="50%"}
 
+- Dead-Reckoning Animal Movement in R:  
+  Developed and refined analytical frameworks for reconstructing movement paths using animal-borne sensors.
 
-- Dead-Reckoning Animal Movement in R: Developed and refined analytical frameworks for reconstructing movement paths using animal-borne sensors.
-
-- African Lions in Kgalagadi, South Africa: Conducted large-scale tagging efforts, collecting high-resolution data to study movement ecology.
-
+- African Lions in Kgalagadi, South Africa:  
+  Conducted large-scale tagging efforts, collecting high-resolution data to study movement ecology.
 
 ![Alt Text](assets/images/lion.jpg){: width="70%"}
 
-
-- Penguins and Cormorants in Argentina: Tagged and retrieved data from over 70 birds to investigate foraging patterns and movement efficiency.
-
+- Penguins and Cormorants in Argentina:  
+  Tagged and retrieved data from over 70 birds to investigate foraging patterns and movement efficiency.
 
 <div class="image-row">
   <img src="assets/images/penguinselfie.jpg" alt="" />
