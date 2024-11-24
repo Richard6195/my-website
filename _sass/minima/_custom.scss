@@ -35,11 +35,10 @@ body {
 .site-nav {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Allows links to move to the next line if needed */
   gap: 5px;
+  flex-wrap: wrap; /* Allows links to move to the next line if needed */
   margin-top: 10px;
   margin-bottom: 10px;
-  z-index: 10; /* Ensure navigation stays on top */
   position: relative; /* Prevent overlapping issues */
   color: #ffffff;
 }
@@ -54,7 +53,7 @@ body {
 
 .site-nav .page-link:hover {
   text-decoration: underline;
-  color: #FF8C00; /* Highlight color on hover */
+  color: $brand-color;
 }
 
 /* Footer Styling */
@@ -72,15 +71,6 @@ body {
   color: #ffc800;
   font-size: 1rem; /* Slightly larger font size for links */
   font-weight: bold;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-  color: #FF4500; /* Optional: Highlight link color on hover */
-}
-
-.site-footer .contact-list li {
-  margin: 5px 0;
 }
 
 /* Main Content Area Styling */
