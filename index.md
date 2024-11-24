@@ -9,10 +9,12 @@ I’m **Richard Gunner**, a postdoctoral researcher specializing in:
 - Wildlife tracking and motion sensor analysis.
 - Ecological data analysis and innovative computational methods.
 
-Feel free to explore:
-- [About Me](about.html)
-- [Projects](projects.html)
-- [Publications](publications.html)
+<div class="explore-links">
+  Feel free to explore:
+  - [About Me](about.html)
+  - [Projects](projects.html)
+  - [Publications](publications.html)
+</div>
 
 ![Alt Text](assets/images/profilepic.jpg) 
 ![Alt Text](assets/images/lionselfie.jpg)

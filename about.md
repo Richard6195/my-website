@@ -39,12 +39,14 @@ Throughout my career, I’ve led and contributed to several interdisciplinary re
   Developed and refined analytical frameworks for reconstructing movement paths using animal-borne sensors.
 
 - African Lions in Kgalagadi, South Africa:  
-  Conducted large-scale tagging efforts, collecting high-resolution data to study movement ecology.
+  Conducted large-scale tagging efforts, collecting high-resolution data across four prides over six months to study their movement ecology.
 
 ![Alt Text](assets/images/lion.jpg){: width="70%"}
 
+
 - Penguins and Cormorants in Argentina:  
   Tagged and retrieved data from over 70 birds to investigate foraging patterns and movement efficiency.
+
 
 <div class="image-row">
   <img src="assets/images/penguinselfie.jpg" alt="" />

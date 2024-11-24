@@ -7,7 +7,7 @@ permalink: /publications.html
 # Publications
 Here’s a curated list of my publications, along with links to the original papers.
 
-### Primary Author Publications
+## Primary Author Publications
 1. [Gunner, R.M. et al. (2020). A new direction for differentiating animal activity based on measuring angular velocity about the yaw axis. *Ecology and Evolution, 10(14), pp.7872-7886.*]( https://doi.org/10.1002/ece3.6515)  
 2. [Gunner, R.M. et al. (2021). Activity of loggerhead turtles during the U-shaped dive: insights using angular velocity metrics. *Endangered Species Research, 45, pp.1-12.*](https://doi.org/10.3354/esr01125)  
 3. [Gunner, R.M. et al. (2021). Dead-reckoning animal movements in R: a reappraisal using Gundog.Tracks. *Animal Biotelemetry, 9(23).*](https://doi.org/10.1186/s40317-021-00245-z)  
@@ -15,7 +15,7 @@ Here’s a curated list of my publications, along with links to the original pap
 5. [Gunner, R.M. et al. (2022). Decision rules for determining terrestrial movement and the consequences for filtering high-resolution global positioning system tracks: a case study using the African lion (*Panthera leo*). *Royal Society Interface, 19(186).*](https://doi.org/10.1098/rsif.2021.0692)  
 6. [Gunner, R.M. et al. (2023). Examination of head versus body heading may help clarify the extent to which animal movement pathways are structured by environmental cues. *Movement Ecology, 11(1), p.71.*](https://doi.org/10.1186/s40462-023-00432-y)  
    
-### Co-Author Publications
+## Co-Author Publications
 1.  [Wilson, R.P. et al. (2018). Towards informed metrics for examining the role of human-induced animal responses in tag studies on wild animals. *PubMed.*](https://pubmed.ncbi.nlm.nih.gov/29851254/)  
 2. [Wilson, R.P. et al. (2020). Estimates for energy expenditure in free-living animals using acceleration proxies: A reappraisal. *Journal of Animal Ecology, 89, pp.161-172.*](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13040)  
 3. [Arkwright, A.C. et al. (2020). Behavioral Biomarkers for Animal Health: A Case Study Using Animal-Attached Technology on Loggerhead Turtles. *Frontiers in Ecology and Evolution, 7, p.504.*](https://doi.org/10.3389/fevo.2019.00504)  
