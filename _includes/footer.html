@@ -1,0 +1,17 @@
+<footer class="site-footer h-card">
+  <div class="wrapper">
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <p class="p-name">{{ site.author.name }}</p>
+    <p>{{ site.description }}</p>
+    <ul class="contact-list">
+      {% for email in site.author.email %}
+        <li><a href="mailto:{{ email }}" class="u-email">{{ email }}</a></li>
+      {% endfor %}
+    </ul>
+    <ul class="social-list">
+      <li><a href="{{ site.github_username }}" target="_blank">GitHub</a></li>
+      <li><a href="{{ site.social_links.researchgate }}" target="_blank">ResearchGate</a></li>
+      <li><a href="{{ site.social_links.orcid }}" target="_blank">ORCID</a></li>
+    </ul>
+  </div>
+</footer>

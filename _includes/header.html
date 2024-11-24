@@ -1,0 +1,17 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <!-- Site Title -->
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    <!-- Site Description -->
+    <p class="site-description">{{ site.description }}</p>
+
+    <!-- Navigation Menu -->
+    <nav class="site-nav">
+      <a class="page-link" href="{{ "/" | relative_url }}">Home</a>
+      <a class="page-link" href="{{ "/about.html" | relative_url }}">About Me</a>
+      <a class="page-link" href="{{ "/projects.html" | relative_url }}">Projects</a>
+      <a class="page-link" href="{{ "/publications.html" | relative_url }}">Publications</a>
+    </nav>
+  </div>
+</header>
