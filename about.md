@@ -25,6 +25,7 @@ Dissertation: "A new direction for differentiating animal activity based on meas
 
 ![Alt Text](assets/images/graduation.jpg){: width="70%"}
 
+
 # Research Highlights
 
 - Comparative Foraging Strategies of Neotropical Frugivore Guilds (Panama): Designed and implemented protocols to track high-resolution 3D movements of 10 species using GPS-IMU technologies.
