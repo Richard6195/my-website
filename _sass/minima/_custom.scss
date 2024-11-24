@@ -26,7 +26,7 @@ body {
 }
 
 .site-header .site-description {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-style: italic;
   margin-top: 10px;
 }
@@ -36,49 +36,38 @@ body {
   display: flex;
   justify-content: center;
   gap: 5px;
-  flex-wrap: wrap; /* Allows links to move to the next line if needed */
+  flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .site-nav .page-link {
   text-decoration: none;
-  color: #ffe100; /* Gold links */
+  color: #FFe100; /* Gold links */
   font-weight: bold;
-  padding: 5px 10px; /* Add padding for better touch interaction */
+  padding: 5px 10px; /* Add padding for better clickability */
   border-radius: 3px; /* Optional: Rounded corners */
 }
 
 .site-nav .page-link:hover {
   text-decoration: underline;
-  color: $brand-color; /* Highlight color on hover */
+  color: $brand-color;
 }
 
 /* Footer Styling */
 .site-footer {
   text-align: center;
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #ffffff;
   background: linear-gradient(to right, #FF8C00, #FF4500); /* Reverse gradient for footer */
   border-top: 2px solid #FFD700;
   padding: 20px 0;
 }
 
-.site-footer a {
-  color: #ffe100;
-  font-size: 1.1rem; /* Slightly larger font size for links */
-  font-weight: bold;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-  color: #FF4500; /* Optional: Highlight link color on hover */
-}
-
 /* Main Content Area Styling */
 .page-content {
-  padding: 30px 0;
+  padding: 20px 0;
   background: rgba(255, 140, 0, 0.1); /* Light orange overlay */
   border-radius: 15px; /* Soft corners for contrast */
   max-width: 1200px;
@@ -93,11 +82,11 @@ body {
 }
 
 h1, h2, h3 {
-  color: #ffe100; /* Golden headings */
+  color: #FFe100; /* Golden headings */
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 20px;
   line-height: 1.8;
 }
@@ -108,7 +97,7 @@ img, video {
   margin: 20px auto;
   max-width: 90%;
   height: auto;
-  border: 2px solid #ffe100;
+  border: 2px solid #FFD700;
   border-radius: 10px;
 }
 
@@ -130,4 +119,30 @@ img, video {
   .image-row img, .video-row video {
     max-width: 100%;
   }
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Navigation Styling */
+ .site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ .site-nav .page-link {
+  text-decoration: none;
+  color: #FFe100; /* Gold links */
+  font-weight: bold;
+  padding: 5px 10px; /* Add padding for better clickability */
+  border-radius: 3px; /* Optional: Rounded corners */
+ }
+
+ .site-nav .page-link:hover {
+ text-decoration: underline;
+ color: $brand-color;
+ }
 }
