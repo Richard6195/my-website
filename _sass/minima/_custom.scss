@@ -133,20 +133,3 @@ img, video {
   font-size: 1.4rem; /* Optional: Adjust font size */
   font-weight: bold; /* Optional: Make the text bold */
 }
-
-/* Styling for the Explore Links */
-.explore-links {
-  font-size: 1rem; /* Adjust size to your preference */
-  font-weight: bold;
-  text-align: center; /* Centers the links */
-}
-
-.explore-links a {
-  color: #FFD700; /* Set a golden color for the links */
-  text-decoration: none; /* Remove underlines */
-}
-
-.explore-links a:hover {
-  text-decoration: underline; /* Add underline on hover */
-  color: #FF4500; /* Optional: Change color on hover */
-}
