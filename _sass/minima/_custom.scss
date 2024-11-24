@@ -13,7 +13,9 @@ body {
 .site-header {
   text-align: center;
   margin: 20px 0;
-  padding: 20px 0;
+  padding: 0;
+  position:fixed; 
+  z-index: 1;
   background: linear-gradient(to right, #FF4500, #FF8C00); /* Deep orange sunset */
   color: #fff;
   border-bottom: 2px solid #FFD700; /* Highlight border */
@@ -22,6 +24,7 @@ body {
 .site-header .site-title {
   font-size: 2rem;
   font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -37,7 +40,7 @@ body {
   justify-content: center;
   gap: 5px;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 10px;
   color: #ffffff;
 }
