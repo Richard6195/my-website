@@ -39,7 +39,6 @@ body {
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #ffffff;
 }
 
 .site-nav .page-link {
@@ -52,7 +51,7 @@ body {
 
 .site-nav .page-link:hover {
   text-decoration: underline;
-  color:  #FF4500; /* Highlight color on hover */
+  color: $brand-color; /* Highlight color on hover */
 }
 
 /* Footer Styling */
@@ -93,7 +92,7 @@ body {
   padding: 0 20px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   color: #ffe100; /* Golden headings */
 }
 
