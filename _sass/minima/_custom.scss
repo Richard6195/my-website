@@ -35,9 +35,10 @@ body {
 .site-nav {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
   flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
-  margin-top: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .site-nav .page-link {
@@ -45,7 +46,7 @@ body {
   color: #FFD700; /* Gold links */
   font-weight: bold;
   padding: 5px 10px; /* Add padding for better clickability */
-  border-radius: 5px; /* Optional: Rounded corners */
+  border-radius: 3px; /* Optional: Rounded corners */
 }
 
 .site-nav .page-link:hover {
@@ -120,9 +121,28 @@ img, video {
   }
 }
 
+
 @media screen and (max-width: 768px) {
-  .image-row img {
-    max-width: 100%;
-    height: auto;
-  }
+  /* Navigation Styling */
+ .site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ .site-nav .page-link {
+  text-decoration: none;
+  color: #FFD700; /* Gold links */
+  font-weight: bold;
+  padding: 5px 10px; /* Add padding for better clickability */
+  border-radius: 3px; /* Optional: Rounded corners */
+ }
+
+ .site-nav .page-link:hover {
+ text-decoration: underline;
+ color: $brand-color;
+ }
 }
