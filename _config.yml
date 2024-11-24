@@ -8,8 +8,8 @@ description: >-
   I specialize in wildlife tracking,
   ecological data analysis, and exploring motion sensor data to uncover
   animal behaviors. Discover my projects, publications, and tools.
-baseurl: "/my-website"
-url: "https://richard6195.github.io"
+baseurl: "" # Leave blank if hosted on GitHub Pages at root
+url: "https://richard6195.github.io/my-website"
 github_username: "https://github.com/Richard6195"
 social_links:
   researchgate: "https://www.researchgate.net/profile/Richard-Gunner-2"
