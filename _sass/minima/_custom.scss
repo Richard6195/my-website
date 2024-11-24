@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   color: #ffffff; /* Set white text for better contrast */
   margin: 0;
-  padding: 0;
+  padding-top: 10px;
   background: linear-gradient(to bottom, #FF4500, #FF8C00, #FFD700); /* Sunset gradient */
   background-attachment: fixed; /* Ensures smooth scrolling */
 }
@@ -13,7 +13,7 @@ body {
 .site-header {
   text-align: center;
   margin: 20px 0;
-  padding: 20px 0;
+  padding-top: 10px;
   background: linear-gradient(to right, #FF4500, #FF8C00); /* Deep orange sunset */
   color: #fff;
   border-bottom: 2px solid #FFD700; /* Highlight border */
@@ -23,12 +23,14 @@ body {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .site-header .site-description {
   font-size: 1.1rem;
   font-style: italic;
   margin-top: 10px;
+  padding-top: 10px;
 }
 
 /* Navigation Styling */
@@ -37,10 +39,10 @@ body {
   justify-content: center;
   gap: 5px;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
-  margin-top: 8px;
-  margin-bottom: 8px;
   color: #ffffff;
-  position: sticky; top:0
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: sticky; top:0;
 }
 
 .site-nav .page-link {
