@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   color: #ffffff; /* Set white text for better contrast */
   margin: 0;
-  padding-top: 60px;
+  padding-top: 100px;
   background: linear-gradient(to bottom, #FF4500, #FF8C00, #FFD700); /* Sunset gradient */
   background-attachment: fixed; /* Ensures smooth scrolling */
 }
@@ -37,8 +37,8 @@ body {
   gap: 5px;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
   color: #ffffff;
-  padding-top: 5px;
-  padding-bottom: 8px;
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
 
 .site-nav .page-link {
@@ -137,9 +137,4 @@ img, video {
   }
 }
 
-/* Responsive Styling for Mobile Screens */
-@media screen and (max-width: 768px) {
-  .site-header {
-    padding: 10px 0; /* Adjust header padding for smaller screens */
-  }
-}
+
