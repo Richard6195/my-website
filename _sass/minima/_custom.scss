@@ -35,9 +35,9 @@ body {
 .site-nav {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
   flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
-  margin-top: 15px;
+  margin-top: 22px;
 }
 
 .site-nav .page-link {
@@ -118,25 +118,11 @@ img, video {
   .image-row img, .video-row video {
     max-width: 100%;
   }
+}
 
-/* Adjustments for Mobile Devices */
-  .site-header {
-    text-align: center;
-  }
-
-  .site-nav {
-    flex-wrap: wrap; /* Ensures items wrap to the next line on small screens */
-    gap: 8px;
-    display: flex;
-    justify-content: center;
-    margin-top: 8px;
-  }
-
-  .site-nav .page-link {
-    color: #FFD700; /* Gold links */
-    font-weight: bold;
-    font-size: 1rem; /* Adjust font size for mobile */
-    padding: 5px 10px; /* Add more spacing for touch devices */
-    border-radius: 5px; /* Optional: Rounded corners */
+@media screen and (max-width: 768px) {
+  .image-row img {
+    max-width: 100%;
+    height: auto;
   }
 }
