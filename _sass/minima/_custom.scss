@@ -37,10 +37,11 @@ body {
   justify-content: center;
   flex-wrap: wrap; /* Allows links to move to the next line if needed */
   gap: 5px;
-  margin-top: 5px;
-  padding: 5px 0;
-  z-index: 5; /* Ensure navigation stays on top */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 10; /* Ensure navigation stays on top */
   position: relative; /* Prevent overlapping issues */
+  color: #ffffff;
 }
 
 .site-nav .page-link {
@@ -71,7 +72,6 @@ body {
   color: #ffc800;
   font-size: 1rem; /* Slightly larger font size for links */
   font-weight: bold;
-  text-decoration: none;
 }
 
 .site-footer a:hover {
@@ -139,16 +139,3 @@ img, video {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .site-nav {
-    justify-content: space-evenly; /* Spread items evenly */
-  }
-
-  .site-nav .page-link {
-    display: inline-block; /* Ensure links don't overlap */
-    background: linear-gradient(to right, #FF4500, #FF8C00); /* Deep orange sunset */
-    padding: 4px 8px; /* Adjust padding if needed */
-    box-shadow: none; /* Remove any shadow */
-    border: none; /* Ensure no border is applied */
-  }
-}
