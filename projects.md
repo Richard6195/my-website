@@ -7,9 +7,7 @@ permalink: /projects.html
 ### Mapping Animal Movement Lattices: Integrating High-Resolution Tracking and LiDAR in a Tropical Ecosystem
 
 - **Principal Investigator**: Dr. Richard Gunner
-  
 - **Supervisor**: Prof. Meg Crofoot
-  
 - **Key field collaborators**: Josue Ortega and Lucia Torrez
 
 ## Primary Hypothesis:
