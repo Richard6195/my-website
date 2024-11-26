@@ -19,4 +19,4 @@ Feel free to explore:
 ![Alt Text](assets/images/selfieargentina.jpg){: width="50%"}
 ![Alt Text](assets/images/collarselfie.jpg){: width="50%"}
 
-# Thank you for visiting! 
+# Thank you for visiting! or visiting!
