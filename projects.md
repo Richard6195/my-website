@@ -4,8 +4,9 @@ title: "Projects"
 permalink: /projects.html
 ---
 # Current Project
-
-#### Mapping Animal Movement Lattices: Integrating High-Resolution Tracking and LiDAR in a Tropical Ecosystem
+<div class="center-text">
+Mapping Animal Movement Lattices: Integrating High-Resolution Tracking and LiDAR in a Tropical Ecosystem
+</div>
 
 - **Principal Investigator**: Dr. Richard Gunner
 - **Supervisor**: Prof. Meg Crofoot
