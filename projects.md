@@ -3,6 +3,7 @@ layout: default
 title: "Projects"
 permalink: /projects.html
 ---
+
 # Current Project
  Mapping Animal Movement Lattices: Integrating High-Resolution Tracking and LiDAR in a Tropical Ecosystem
 
