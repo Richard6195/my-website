@@ -30,7 +30,7 @@ Dissertation: "A new direction for differentiating animal activity based on meas
 ![Alt Text](assets/images/data.png){: width="50%"}
 - Dead-Reckoning Animal Movement in R: Developed and refined analytical frameworks for reconstructing movement paths using animal-borne sensors.
   
-- African Lions in Kgalagadi, South Africa: Conducted large-scale tagging efforts, collecting high-resolution data to study movement ecology.
+- African Lions in Kgalagadi, South Africa: Conducted large-scale tagging efforts, collecting high-resolution data from four prides over multiple months to study their movement ecology.
 
 ![Alt Text](assets/images/lion.jpg){: width="70%"}
 
