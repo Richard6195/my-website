@@ -19,6 +19,4 @@ Feel free to explore:
 ![Alt Text](assets/images/selfieargentina.jpg){: width="50%"}
 ![Alt Text](assets/images/collarselfie.jpg){: width="50%"}
 
-<div class="center-text">
-Thank you for visiting!
-</div>
+# Thank you for visiting! 
