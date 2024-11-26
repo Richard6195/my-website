@@ -20,5 +20,5 @@ Feel free to explore:
 ![Alt Text](assets/images/collarselfie.jpg){: width="50%"}
 
 <div class="center-text">
-  # Thank you for visiting!
+  Thank you for visiting!
 </div>

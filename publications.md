@@ -23,8 +23,8 @@ Here’s a curated list of my publications, along with links to the original pap
 5. [Mayer, M. & Gunner, R.M. (2021). Roadkill: we can predict where animals cross roads – and use it to prevent collisions. *The Conversation.*](https://theconversation.com/roadkill-we-can-predict-where-animals-cross-roads-and-use-it-to-prevent-collisions-164001)  
 6. [Wilson, R.P. et al. (2021). Path tortuosity changes the transport cost paradigm in terrestrial animals. *Ecography, 44(10).*](https://doi.org/10.1111/ecog.05850)  
 7. [Gómez Laich, A. et al. (2021). Leg rings impact the diving performance of a foot-propelled diver. *Ibis, 164(1), pp.200-210.*](https://doi.org/10.1111/ibi.12998)  
-8.  [Wilson R.P. et al. (2021). Animal lifestyle affects acceptable mass limits for attached tags. *Proceedings of the Royal Society B, 289:20220120.*](https://doi.org/10.1111/ibi.12998)  
-9.  [Quintana, F. et al. (2022). Long walk home: Magellanic penguins have strategies that lead them to areas where they can navigate most efficiently. *Proceedings of the Royal Society B, 289(1976), p.20220535.*](https://doi.org/10.1098/rspb.2022.0535)  
-10. [English, H. et al. (2023). Multi-sensor biologgers and innovative training allow data collection with high conservation and welfare value in zoos. *Journal of Zoo and Aquarium Research, 11(1), 220–231.*](https://doi.org/10.19227/jzar.v11i1.670)  
-11. [Garde, B. et al. (2023). Thermal soaring in tropicbirds suggests that diverse seabirds may use this strategy to reduce flight costs. *Marine Ecology Progress Series.*](https://doi.org/10.3354/meps14410)  
-12. [Scharling, F.S. et al. (2024). Short QT intervals in African lions. *Experimental Physiology, 1–12.*](https://doi.org/10.1113/EP092203)  
+8.  [Quintana, F. et al. (2022). Long walk home: Magellanic penguins have strategies that lead them to areas where they can navigate most efficiently. *Proceedings of the Royal Society B, 289(1976), p.20220535.*](https://doi.org/10.1098/rspb.2022.0535)  
+9. [English, H. et al. (2023). Multi-sensor biologgers and innovative training allow data collection with high conservation and welfare value in zoos. *Journal of Zoo and Aquarium Research, 11(1), 220–231.*](https://doi.org/10.19227/jzar.v11i1.670)  
+10. [Garde, B. et al. (2023). Thermal soaring in tropicbirds suggests that diverse seabirds may use this strategy to reduce flight costs. *Marine Ecology Progress Series.*](https://doi.org/10.3354/meps14410)  
+11. [Scharling, F.S. et al. (2024). Short QT intervals in African lions. *Experimental Physiology, 1–12.*](https://doi.org/10.1113/EP092203)  
+
